@@ -11,7 +11,8 @@ const updateUI = (data) => {
 
   //update details temlapte
   details.innerHTML = `
-        <h5 class="my-3">${cityDets.EnglishName}</h5>
+        <h2 class="my-3">${cityDets.EnglishName}</h2>
+        <h5 class="my-3">${cityDets.Country.EnglishName}</h5>
         <div class="my-3">${weather.WeatherText}</div>
         <div class="display-4 my-4">
             <span>${weather.Temperature.Metric.Value}</span>
