@@ -8,6 +8,7 @@ const updateUI = (data) => {
   //destructure properties
   const { cityDets, weather } = data;
   console.log(data);
+
   //update details temlapte
   details.innerHTML = `
         <h5 class="my-3">${cityDets.EnglishName}</h5>
